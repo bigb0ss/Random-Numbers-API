@@ -12,4 +12,4 @@ def root():
 	return jsonify(d)
 
 
-app.run()
+app.run(port='107')
