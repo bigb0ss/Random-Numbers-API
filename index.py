@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 import numpy as np
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/',methods=['GET','POST'])
 def root():
