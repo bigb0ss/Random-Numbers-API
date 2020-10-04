@@ -1,5 +1,7 @@
 Flask
 gunicorn==19.7.1
+requests
+lxml
 numpy
 Jinja2
 mysql-connector-python
